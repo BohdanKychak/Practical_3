@@ -22,7 +22,7 @@ public class Part2 {
         Matcher m2 = p.matcher(input);
         String strLongWords = getLongWords(input, m2);
 
-        return "Min: " + strShortWords + "\nMax: " + strLongWords ;
+        return "Min: " + strShortWords + "\nMax: " + strLongWords;
     }
 
     private static String getLongWords(String input, Matcher m) {
